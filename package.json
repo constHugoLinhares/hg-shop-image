@@ -6,7 +6,7 @@
   "description": "Aplicativo para arrastar imagens e gerar PDF",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-packager . MeuApp --platform=win32 --arch=x64 --out=dist --overwrite"
+    "dist": "electron-packager . HGShopPdfGenerator_imagesToPDF --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "devDependencies": {
     "electron": "^32.1.2",
