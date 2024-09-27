@@ -1,0 +1,63 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.image-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+#client-images, #product-images {
+    border: 1px solid #ddd;
+    min-height: 200px;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.delete-btn, .edit-btn {
+    position: absolute;
+    top: 5px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+.delete-btn {
+    right: 5px;
+}
+
+.edit-btn {
+    left: 5px;
+    background: #4CAF50;
+}

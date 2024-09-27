@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastar Imagens e Gerar PDF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Arraste ou Selecione as Imagens</h1>
+
+    <div class="image-columns">
+        <div class="image-column">
+            <h2>Imagens Enviadas pelo Cliente:</h2>
+            <div id="client-drop-area" class="drop-area">
+                Arraste e solte as imagens do cliente aqui
+            </div>
+            <button id="select-client-images">Selecionar Imagens do Cliente</button>
+            <div id="client-images"></div>
+        </div>
+
+        <div class="image-column">
+            <h2>Fotos do Produto:</h2>
+            <div id="product-drop-area" class="drop-area">
+                Arraste e solte as imagens do produto aqui
+            </div>
+            <button id="select-product-images">Selecionar Imagens do Produto</button>
+            <div id="product-images"></div>
+        </div>
+    </div>
+
+    <button id="generate-pdf">Gerar PDF</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
